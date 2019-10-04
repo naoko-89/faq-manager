@@ -1,0 +1,166 @@
+[
+  {
+    "ConversationType": "機能の説明",
+    "ExpectedQuestion": "QRオートプリンタ",
+    "FunctionType": "全般（分類なし）",
+    "QuestionType": "全般（分類なし）",
+    "ResponseHow": "以下の手順で設定します。\n\n1. 設定ツールを使ってWordやExcelなどの文書を読み込みます。\n文書を判定する領域、QRコードに変換する文字列、QRコードを貼付する位置をそれぞれ指定したらテンプレートとして保存します。\n2. QRコードを貼付するWordやExcelなどの文書を開き、QRオートプリンタを指定して印刷実行します。\n3. 指定した位置に指定した文字列のQRコードを貼付したPDFが出力されます。",
+    "ResponseWhat": "WordやExcelなどを印刷して作成するシートに、簡単にQRコードを付加することができるので、\nそれをスキャンして登録・管理するとき、自動でファイル名のリネームやフォルダの振り分けができます。\n\n1. QR付与が簡単です。WordやExcelなどの文書をプリンタに　印刷するだけで自動付与できます。\n2. スキャンするだけで、リネームやフォルダ振り分けができます。QRコードなので間違って認識することがありません。\n3. プリンタ形式なので共有すれば社内で誰でも使用でき、業務アプリをカスタマイズする必要もありません。",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "機能の説明",
+    "ExpectedQuestion": "QRコード",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["QRコード"],
+    "QuestionType": "用語説明",
+    "ResponseHow": "QRオートプリンターでQRコード付きPDFファイルを作成できます。",
+    "ResponseWhat": "QRコードとは二次元バーコードの一種です。縦、横2方向に情報を持つことで、バーコードよりも多くの情報を正確に記録することができます。",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "機能の説明",
+    "ExpectedQuestion": "リネーム",
+    "FunctionType": "リネーム",
+    "Keywords": ["リネーム"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "例えば、医療の現場では手術同意書に患者本人のサインが必要になる場合があります。\nこの同意書を印刷する際、あらかじめ患者IDなどの患者固有の情報をQRコード化する設定をしておいたQRオートプリンタで印刷します。\nこのQRコードつき同意書に患者本人がサインすれば、あとはスキャンするだけでファイル名が患者IDのファイルを出力することができます。",
+    "ResponseWhat": "デジタル複合機やドキュメントスキャナでスキャンすると、ファイル名が日付や連番になってしまい、大量のスキャンや定型的な業務を効率化することができません。\nまた、OCRやバーコードで認識する方法もありますが、これらは誤認識があるために、やはり効率化するうえで問題があります。\nQRコードは誤認識することがないので、認識した結果をファイル名にすることでスムーズにリネームすることができます。",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "機能の説明",
+    "ExpectedQuestion": "フォルダ振り分け",
+    "FunctionType": "フォルダ振り分け",
+    "Keywords": ["フォルダ", "振り分け"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "例えば、医療の現場では手術同意書に患者本人のサインが必要になる場合があります。\nこの同意書を印刷する際、あらかじめ診療科目や患者IDなどの患者固有の情報をQRコード化する設定をしておいたQRオートプリンタで印刷します。\nこのQRコードつき同意書に患者本人がサインすれば、あとはスキャンするだけで、ファイル名が患者IDのファイルを、診療科目ごとにフォルダを振り分けて出力することができます。",
+    "ResponseWhat": "紙の文書をスキャンするとき、顧客IDや取引日、患者情報などでフォルダを分けて管理・登録するのは、従来は手作業で行う必要がありました。\nQRコードは誤認識することがないので、顧客IDなどをQRコードにすることで、スキャンするだけでフォルダを振り分けて保管することができます。",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "機能の説明",
+    "ExpectedQuestion": "QRコード付きPDF",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["PDF", "印刷", "QRコード"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "以下の条件を除き、PDFをQRオートプリンタで印刷してQRコードを貼付することができます。\n\n1.PDFファイルが画像データで構成されている。(マウスでテキストが選択できない)\n2.PDFファイルはテキストデータで構成されているが、印刷時に画像データを送信するアプリケーションを使用している。",
+    "ResponseWhat": "QRコードが印刷された文書です。QRコードスキャナーやハイパーギアのPDF変換製品で読み込み様々な処理が行えます。",
+    "TargetComponent": "プリンタ",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "サーバーの変更方法は？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["サーバー変更"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "サーバーを変更するには次の作業が必要です。\n\n1. 製品のインストール\n2.コードワードの再発行\n3.ドライバの共有や追加\n4.ジョブの再設定",
+    "ResponseWhat": "",
+    "TargetComponent": "設定情報",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "ジョブ数に制限はありますか？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["ジョブ数", "制限"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "シングルユーザー版は30個まで、ネットワーク版は100個までジョブを作成することができます。\n詳細は以下を参照してください。\n\nHGQRオートプリンタ カタログ(PDF)\nhttps://www.hypergear.com/cms/wp-content/uploads/2018/11/HGQRAutoPrinter.pdf",
+    "ResponseWhat": "",
+    "TargetComponent": "設定情報",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "サーバーはログオフしても使えますか？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["サーバー", "ログオフ"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "QRオートプリンターでは、インストールしたマシンの状態によっては一部または全ての機能を使用することができません。\n\nシャットダウンしている状態→全ての機能を使用できません。\nログアウトしている状態→一部の機能を使用できません。",
+    "ResponseWhat": "",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "仮想OSに対応していますか？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["仮想OS", "対応"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "対応しています。動作環境については以下を参照してください。\n\nHGQRオートプリンタ カタログ(PDF)\nhttps://www.hypergear.com/cms/wp-content/uploads/2018/11/HGQRAutoPrinter.pdf",
+    "ResponseWhat": "",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "QRコードのサイズは変更できますか？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["QRコード", "サイズ変更"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "QRコードのサイズは、解像度(100DPI/200DPI/400DPI)を指定するか、指定エリア内に収めるようにするか、選択することができます。\n※解像度を指定する場合、数値が小さいほど認識精度は上がりますが、QRコードも大きくなります。",
+    "ResponseWhat": "",
+    "TargetComponent": "設定情報",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "拠点ごとにプリンタを分けられますか？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["拠点", "プリンタ"],
+    "QuestionType": "ワンポイントアドバイス",
+    "ResponseHow": "各拠点ごとにジョブの設定が必要になります。",
+    "ResponseWhat": "",
+    "TargetComponent": "プリンタ",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "商品質問",
+    "ExpectedQuestion": "検証用のコードワードを発行方法は？",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["検証用", "コードワード"],
+    "QuestionType": "全般（分類なし）",
+    "ResponseHow": "試用版コードワードの発行は、以下までご連絡ください。",
+    "ResponseWhat": "",
+    "TargetComponent": "全般（分類なし）",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "トラブルシュート",
+    "ExpectedQuestion": "仮想プリンタがインストールされません。",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["仮想プリンタ", "インストール"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "ご利用の環境が動作条件を満たしているか、ご確認ください。\n\nHGQRオートプリンタ カタログ(PDF)\nhttps://www.hypergear.com/cms/wp-content/uploads/2018/11/HGQRAutoPrinter.pdf",
+    "ResponseWhat": "",
+    "TargetComponent": "プリンタ",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "トラブルシュート",
+    "ExpectedQuestion": "プリンタを変更したら印刷されなくなりました。",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["プリンタ", "変更", "印刷"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "ご利用のプリンター/複合機が動作条件を満たしているか、ご確認ください。\n※カード認証など、認証機能のあるプリンターでは印刷できません。\n\nHGQRオートプリンタ カタログ(PDF)\nhttps://www.hypergear.com/cms/wp-content/uploads/2018/11/HGQRAutoPrinter.pdf",
+    "ResponseWhat": "",
+    "TargetComponent": "プリンタ",
+    "TargetEdition": "全般（分類なし）"
+  },
+  {
+    "ConversationType": "トラブルシュート",
+    "ExpectedQuestion": "コードワードを再発行しても、仮想プリンターがインストールされません。",
+    "FunctionType": "全般（分類なし）",
+    "Keywords": ["コードワード", "再発行", "仮想プリンタ"],
+    "QuestionType": "カタログスペック(動作環境、制限事項、価格)",
+    "ResponseHow": "ご利用の環境が動作条件を満たしているか、ご確認ください。\n\nHGQRオートプリンタ カタログ(PDF)\nhttps://www.hypergear.com/cms/wp-content/uploads/2018/11/HGQRAutoPrinter.pdf",
+    "ResponseWhat": "",
+    "TargetComponent": "プリンタ",
+    "TargetEdition": "全般（分類なし）"
+  }
+]
